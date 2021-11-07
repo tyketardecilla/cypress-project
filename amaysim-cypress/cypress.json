@@ -1,6 +1,8 @@
 {
     "baseUrl": "https://www.amaysim.com.au/",
     "watchForFileChanges": false,
+    "hideXHR": true,
+    "chromeWebSecurity": false,
     "blockHosts": [
       "idsync.segment.com",
       "c.supert.ag",
