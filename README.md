@@ -12,21 +12,43 @@ $ npm install
 
 ## Running the framework
 
-Open Cypress UI
+### Environments
+* production - working URL with valid user credentials
+* development
+  * dummy URL = https://www.dev-amaysim.com.au (set in /cypress/config/development.json)
+  * dummy user credentials (set in /cypress/fixtures/development/userAccount.json)
+* staging
+  * dummy URL = https://www.staging-amaysim.com.au (set in /cypress/config/staging.json)
+  * dummy user credentials (set in /cypress/fixtures/development/userAccount.json)
+
+### Commands
+#### Open Cypress UI
+Launch Cypress UI to run tests on a specific environment
 ```sh
-$ npm run cypress
+$ npm run cy:open:production
 ```
 
-Run all tests in headless mode
 ```sh
-$ npm run test
+$ npm run cy:open:development
 ```
 
-Run a single test from command line
 ```sh
-$ npx cypress run --spec cypress/integration/change-forwarding-number.spec
+$ npm run cy:open:staging
 ```
 
+#### Run all tests in headless mode
+Execute tests from command line to run on a specific environment
+```sh
+$ npm run cy:run:production
+```
+
+```sh
+$ npm run cy:run:development
+```
+
+```sh
+$ npm run cy:run:staging
+```
 
 [//]: #
    [Cypress]: <https://www.cypress.io/>
