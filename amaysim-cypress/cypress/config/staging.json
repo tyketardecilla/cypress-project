@@ -1,0 +1,24 @@
+{
+    "baseUrl": "https://www.staging-amaysim.com.au",
+    "env": {
+        "environment": "staging"
+    },
+    "fixturesFolder": "cypress/fixtures/staging",
+    "watchForFileChanges": false,
+    "hideXHR": true,
+    "chromeWebSecurity": false,
+    "blockHosts": [
+        "idsync.segment.com",
+        "c.supert.ag",
+        "js.adsrvr.org",
+        "acdn.adnxs.com",
+        "secure.adnxs.com",
+        "secure.quantserve.com",
+        "bam-cell.nr-data.net",
+        "cdn.segment.com",
+        "cm.g.doubleclick.net",
+        "api.livechatinc.com",
+        "syndication.twitter.com",
+        "www.facebook.com"
+  ]
+}

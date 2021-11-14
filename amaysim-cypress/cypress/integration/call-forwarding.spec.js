@@ -52,7 +52,6 @@ describe('Change Call Forwarding Settings', () => {
         cy.get('#settings_call_forwarding > div > div.row.margin-top > div.small-1.medium-2.large-1.columns.bold.text-right.setting-option-value-text').should('contain.text', 'No')
     
     })
-    
 
 })
 

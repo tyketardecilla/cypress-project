@@ -1,4 +1,7 @@
 {
+    "env": {
+        "environment": "production"
+    },
     "username": "0481862258",
     "password": "theHoff34"
 }
